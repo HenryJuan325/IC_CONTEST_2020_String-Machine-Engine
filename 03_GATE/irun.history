@@ -1,0 +1,18 @@
+s1(16Mar2023:00:22:19):  irun -f ncvlog.f 
+s2(16Mar2023:00:24:30):  irun -f ncvlog.f 
+s3(16Mar2023:00:24:40):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s4(16Mar2023:00:26:33):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s5(16Mar2023:00:28:26):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s6(16Mar2023:00:34:54):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s7(16Mar2023:00:35:24):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s8(16Mar2023:00:38:16):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s9(16Mar2023:00:46:45):  ncverilog -sv tb.sv SME_syn.v +ncmaxdelay +define+SDF +access+r 
+s10(16Mar2023:00:47:18):  ncverilog -sv tb_term.sv .sv SME_syn.v +ncmaxdelay +define+SDF +access+r 
+s11(16Mar2023:00:47:23):  ncverilog -sv tb_term.sv SME_syn.v +ncmaxdelay +define+SDF +access+r 
+s12(16Mar2023:00:48:31):  ncverilog -f ncvlog.f 
+s13(16Mar2023:00:48:55):  ncverilog -f ncvlog.f 
+s14(16Mar2023:00:49:04):  ncverilog -f ncvlog.f 
+s15(16Mar2023:07:52:05):  ncverilog -f ncvlog.f 
+s16(16Mar2023:07:52:17):  ncverilog -f ncvlog.f 
+s17(16Mar2023:07:52:50):  irun -f ncvlog.f 
+s18(16Mar2023:07:53:20):  irun -f ncvlog.f 
