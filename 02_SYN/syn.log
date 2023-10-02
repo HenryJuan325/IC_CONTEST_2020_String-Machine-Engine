@@ -1,0 +1,612 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+                 Version T-2022.03 for linux64 - Feb 22, 2022 
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+Initializing...
+#Read All Files
+read_file -format verilog  SME.v
+Loading db file '/RAID2/COURSE/iclab/iclab075/IC_CONTEST/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db'
+Loading db file '/usr/cad/synopsys/synthesis/2022.03/libraries/syn/dw_foundation.sldb'
+Loading db file '/usr/cad/synopsys/synthesis/2022.03/libraries/syn/gtech.db'
+Loading db file '/usr/cad/synopsys/synthesis/2022.03/libraries/syn/standard.sldb'
+  Loading link library 'slow'
+  Loading link library 'gtech'
+Loading verilog file '/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v'
+Detecting input file type automatically (-rtl or -netlist).
+Opening include file SME_COMP.v
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v
+Opening include file SME_COMP.v
+Warning:  SME_COMP.v:47: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  SME_COMP.v:52: A unnamed generate block with an LRM-defined name 'genblk2' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  SME_COMP.v:63: A unnamed generate block with an LRM-defined name 'genblk3' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  SME_COMP.v:99: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  SME_COMP.v:99: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  SME_COMP.v:98: A unnamed generate block with an LRM-defined name 'genblk4' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  /RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v:92: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  /RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v:92: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  /RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v:78: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  /RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v:71: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  /RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v:70: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  /RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v:184: A unnamed generate block with an LRM-defined name 'genblk2' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  /RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v:282: A unnamed generate block with an LRM-defined name 'genblk3' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  /RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v:288: A unnamed generate block with an LRM-defined name 'genblk4' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  SME_COMP.v:69: signed to unsigned conversion occurs. (VER-318)
+
+Statistics for case statements in always block at line 63 in file
+	'SME_COMP.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            66            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 112 in file
+	'SME_COMP.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           115            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 99 in file
+	'SME_COMP.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           102            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 132 in file
+	'SME_COMP.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           135            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 147 in file
+	'SME_COMP.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           150            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine SME_COMP line 63 in file
+		'SME_COMP.v'.
+====================================================
+Memory usage for this session 83 Mbytes.
+Memory usage for this session including child processes 83 Mbytes.
+CPU usage for this session 2 seconds ( 0.00 hours ).
+Elapsed time for this session 7906 seconds ( 2.20 hours ).
+
+Thank you...
+ | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine SME_COMP line 112 in file
+		'SME_COMP.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     str_buf_reg     | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine SME_COMP line 99 in file
+		'SME_COMP.v'.
+===============================================================================
+|    Register Name    |   Type    | Widtdth | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     str_buf_reg     | Flip-flop |  264  |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine SME_COMP line 133 in file
+		'SME_COMP.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       cs_reg        | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine SME_COMP line 148 in file
+		'SME_COMP.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   match_index_reg   | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine SME_COMP line 159 in file
+		'SME_COMP.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      match_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine SME_COMP line 165 in file
+		'SME_COMP.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      ready_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Statistics for case statements in always block at line 54 in file
+	'/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            55            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 79 in file
+	'/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            82            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 93 in file
+	'/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            96            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 107 in file
+	'/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           110            |    auto/auto     |
+===============================================
+$display output: hello
+
+Inferred memory devices in process
+	in routine SME line 47 in file
+		'/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     c_state_reg     | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine SME line 73 in file
+		'/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     str_reg_reg     | Flip-flop |   7   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     str_reg_reg     | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine SME line 79 in file
+		'/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     str_reg_reg     | Flip-flop |   7   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     str_reg_reg     | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine SME line 93 in file
+		'/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     str_reg_reg     | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine SME line 107 in file
+		'/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     str_reg_reg     | Flip-flop |  248  |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine SME line 167 in file
+		'/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     str_len_reg     | Flip-flop |   6   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine SME line 186 in file
+		'/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     pat_reg_reg     | Flip-flop |  80   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine SME line 223 in file
+		'/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    flag_head_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine SME line 229 in file
+		'/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     pat_len_reg     | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine SME line 245 in file
+		'/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      valid_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine SME line 257 in file
+		'/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      match_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine SME line 267 in file
+		'/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   match_index_reg   | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME_COMP.db:SME_COMP'
+Loaded 2 designs.
+Current design is 'SME_COMP'.
+SME_COMP SME
+current_design SME
+Current design is 'SME'.
+{SME}
+link
+
+  Linking design 'SME'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (2 designs)               /RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME.db, etc
+  slow (library)              /RAID2/COURSE/iclab/iclab075/IC_CONTEST/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db
+  dw_foundation.sldb (library) /usr/cad/synopsys/synthesis/2022.03/libraries/syn/dw_foundation.sldb
+
+1
+#Setting Clock Constraints
+source -echo -verbose SME.sdc
+# operating conditions and boundary conditions #
+set cycle 20.0
+20.0
+create_clock -name clk  -period $cycle   [get_ports  clk] 
+1
+set_dont_touch_network      [all_clocks]
+1
+set_fix_hold                [all_clocks]
+1
+set_clock_uncertainty  0.1  [all_clocks]
+1
+set_clock_latency      0.5  [all_clocks]
+1
+set_ideal_network           [get_ports clk]
+1
+#Don't touch the basic env setting as below
+set_input_delay  0   -clock clk [remove_from_collection [all_inputs] [get_ports clk]] -clock_fall
+1
+set_output_delay 0    -clock clk [all_outputs]  -clock_fall
+1
+set_load         1   [all_outputs]
+1
+set_drive        0.1   [all_inputs]
+1
+set_operating_conditions -max_library slow -max slow
+Using operating conditions 'slow' found in library 'slow'.
+1
+set_wire_load_model -name tsmc13_wl10 -library slow                        
+1
+set_max_fanout 20 [all_inputs]
+1
+1
+check_design
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03
+Date:        Thu Mar 16 00:38:06 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      6
+    Unconnected ports (LINT-28)                                     6
+
+Cells                                                              24
+    Cells do not drive (LINT-1)                                    24
+--------------------------------------------------------------------------------
+
+Warning: In design 'SME', cell 'C6005' does not drive any nets. (LINT-1)
+Warning: In design 'SME', cell 'C6017' does not drive any nets. (LINT-1)
+Warning: In design 'SME', cell 'C6029' does not drive any nets. (LINT-1)
+Warning: In design 'SME', cell 'C6041' does not drive any nets. (LINT-1)
+Warning: In design 'SME', cell 'C6053' does not drive any nets. (LINT-1)
+Warning: In design 'SME', cell 'C6065' does not drive any nets. (LINT-1)
+Warning: In design 'SME', cell 'C6077' does not drive any nets. (LINT-1)
+Warning: In design 'SME', cell 'C6089' does not drive any nets. (LINT-1)
+Warning: In design 'SME', cell 'C6101' does not drive any nets. (LINT-1)
+Warning: In design 'SME', cell 'C6113' does not drive any nets. (LINT-1)
+Warning: In design 'SME', cell 'C6125' does not drive any nets. (LINT-1)
+Warning: In design 'SME', cell 'C6143' does not drive any nets. (LINT-1)
+Warning: In design 'SME', cell 'C6152' does not drive any nets. (LINT-1)
+Warning: In design 'SME_COMP', cell 'C6964' does not drive any nets. (LINT-1)
+Warning: In design 'SME_COMP', cell 'C6999' does not drive any nets. (LINT-1)
+Warning: In design 'SME_COMP', cell 'C7034' does not drive any nets. (LINT-1)
+Warning: In design 'SME_COMP', cell 'C7069' does not drive any nets. (LINT-1)
+Warning: In design 'SME_COMP', cell 'C7104' does not drive any nets. (LINT-1)
+Warning: In design 'SME_COMP', cell 'C7139' does not drive any nets. (LINT-1)
+Warning: In design 'SME_COMP', cell 'C7174' does not drive any nets. (LINT-1)
+Warning: In design 'SME_COMP', cell 'C7209' does not drive any nets. (LINT-1)
+Warning: In design 'SME_COMP', cell 'C7244' does not drive any nets. (LINT-1)
+Warning: In design 'SME_COMP', cell 'C7279' does not drive any nets. (LINT-1)
+Warning: In design 'SME_COMP', cell 'C7812' does not drive any nets. (LINT-1)
+Warning: In design 'SME_COMP', port 'str_len[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'SME_COMP', port 'str_len[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'SME_COMP', port 'str_len[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'SME_COMP', port 'str_len[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SME_COMP', port 'str_len[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SME_COMP', port 'str_len[0]' is not connected to any nets. (LINT-28)
+1
+set high_fanout_net_threshold 0
+0
+uniquify
+1
+set_fix_multiple_port_nets -all -buffer_constants [get_designs *]
+1
+#Synthesis all design
+#compile -map_effort high -area_effort high
+#compile -map_effort high -area_effort high -inc
+compile
+Information: Checking out the license 'DesignWare'. (SEC-104)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | S-2021.06-DWBB_202106.0 |     *     |
+| Licensed DW Building Blocks        | S-2021.06-DWBB_202106.0 |     *     |
+============================================================================
+
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler                                                                   |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 3557                                   |
+| Number of User Hierarchies                              | 1                                      |
+| Sequential Cell Count                                   | 665                                    |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 2                                      |
+| Number of VT class                                      | 0                                      |
+| Number of Clocks                                        | 1                                      |
+| Number of Dont Touch cells                              | 1313                                   |
+| Number of Dont Touch nets                               | 2                                      |
+| Number of size only cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+----------------------------------------------------------------------------------------------------
+| Variables                                               | Value                                  |
+----------------------------------------------------------------------------------------------------
+| set_fix_multiple_port_nets                              | -all -buffer_constants                 |
+====================================================================================================
+
+Information: There are 30 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'SME_COMP'
+Information: Added key list 'DesignWare' to design 'SME_COMP'. (DDB-72)
+  Processing 'SME'
+Information: Added key list 'DesignWare' to design 'SME'. (DDB-72)
+Information: The register 'str_reg_reg[0][7]' is a constant and will be removed. (OPT-1206)
+Information: The register 'str_reg_reg[0][6]' is a constant and will be removed. (OPT-1206)
+Information: The register 'str_reg_reg[0][5]' is a constant and will be removed. (OPT-1206)
+Information: The register 'str_reg_reg[0][4]' is a constant and will be removed. (OPT-1206)
+Information: The register 'str_reg_reg[0][3]' is a constant and will be removed. (OPT-1206)
+Information: The register 'str_reg_reg[0][2]' is a constant and will be removed. (OPT-1206)
+Information: The register 'str_reg_reg[0][1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'str_reg_reg[0][0]' is a constant and will be removed. (OPT-1206)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'SME_DW01_inc_0_DW01_inc_1'
+  Processing 'SME_DW01_sub_0'
+  Processing 'SME_COMP_DW01_inc_0_DW01_inc_2'
+  Building model 'DW01_NAND2'
+  Processing 'DW01_NAND2'
+  Building model 'DW01_sub_width5' (rpl)
+  Processing 'DW01_sub_width5'
+  Building model 'DW01_add_width5' (rpl)
+  Processing 'DW01_add_width5'
+  Processing 'SME_DW01_add_0'
+  Processing 'SME_DW01_sub_1'
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:02   70807.0      0.00      -0.0    5103.8                                0.00  
+    0:00:02   70807.0      0.00      -0.0    5103.8                                0.00  
+    0:00:02   70807.0      0.00      -0.0    5103.8                                0.00  
+    0:00:02   70807.0      0.00      -0.0    5103.8                                0.00  
+    0:00:02   70807.0      0.00      -0.0    5103.8                                0.00  
+    0:00:02   35046.2      0.00      -0.0    5093.7                                0.00  
+    0:00:02   35008.9      0.00      -0.0    5093.7                                0.00  
+    0:00:02   35008.9      0.00      -0.0    5093.7                                0.00  
+    0:00:02   35008.9      0.00      -0.0    5093.7                                0.00  
+    0:00:02   35008.9      0.00      -0.0    5093.7                                0.00  
+    0:00:02   35008.9      0.00      -0.0    5093.7                                0.00  
+    0:00:02   34997.0      0.00      -0.0       0.0                                0.00  
+    0:00:02   34997.0      0.00      -0.0       0.0                                0.00  
+    0:00:02   34997.0      0.00      -0.0       0.0                                0.00  
+    0:00:02   34997.0      0.00      -0.0       0.0                                0.00  
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:02   34997.0      0.00      -0.0       0.0                                0.00  
+    0:00:02   34997.0      0.00      -0.0       0.0                                0.00  
+    0:00:03   34891.8      0.00      -0.0    8047.8                                0.00  
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:03   34891.8      0.00       0.0    8047.8                                0.00  
+    0:00:03   35014.0      0.00       0.0       0.0                                0.00  
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:03   35014.0      0.00       0.0       0.0                                0.00  
+    0:00:03   35014.0      0.00       0.0       0.0                                0.00  
+    0:00:03   34844.2      0.00       0.0       0.0                                0.00  
+    0:00:03   34716.9      0.00       0.0       0.0                                0.00  
+    0:00:03   34632.1      0.00       0.0       0.0                                0.00  
+    0:00:03   34579.4      0.00       0.0       0.0                                0.00  
+    0:00:03   34533.6      0.00       0.0       0.0                                0.00  
+    0:00:03   34487.8      0.00       0.0       0.0                                0.00  
+    0:00:03   34441.9      0.00       0.0       0.0                                0.00  
+    0:00:03   34396.1      0.00       0.0       0.0                                0.00  
+    0:00:03   34350.3      0.00       0.0       0.0                                0.00  
+    0:00:03   34304.5      0.00       0.0       0.0                                0.00  
+    0:00:03   34256.9      0.00       0.0       0.0                                0.00  
+    0:00:03   34209.4      0.00       0.0       0.0                                0.00  
+    0:00:03   34161.9      0.00       0.0       0.0                                0.00  
+    0:00:03   34114.3      0.00       0.0       0.0                                0.00  
+    0:00:03   34066.8      0.00       0.0       0.0                                0.00  
+    0:00:03   34019.3      0.00       0.0       0.0                                0.00  
+    0:00:03   33978.6      0.00       0.0       0.0                                0.00  
+    0:00:03   33944.6      0.00       0.0       0.0                                0.00  
+    0:00:03   33910.7      0.00       0.0       0.0                                0.00  
+    0:00:03   33876.7      0.00       0.0       0.0                                0.00  
+    0:00:03   33842.8      0.00       0.0       0.0                                0.00  
+    0:00:03   33808.8      0.00       0.0       0.0                                0.00  
+    0:00:03   33774.9      0.00       0.0       0.0                                0.00  
+    0:00:03   33774.9      0.00       0.0       0.0                                0.00  
+    0:00:03   33774.9      0.00       0.0       0.0                                0.00  
+    0:00:03   33774.9      0.00       0.0       0.0                                0.00  
+    0:00:03   33774.9      0.00       0.0       0.0                                0.00  
+    0:00:03   33774.9      0.00       0.0       0.0                                0.00  
+    0:00:03   33774.9      0.00       0.0       0.0                                0.00  
+    0:00:03   33774.9      0.00       0.0       0.0                                0.00  
+    0:00:03   33774.9      0.00       0.0       0.0                                0.00  
+Loading db file '/RAID2/COURSE/iclab/iclab075/IC_CONTEST/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1
+write -format ddc     -hierarchy -output "SME_syn.ddc"
+Writing ddc file 'SME_syn.ddc'.
+1
+write_sdf -version 1.0  SME_syn.sdf
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME_syn.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+1
+write -format verilog -hierarchy -output SME_syn.v
+Writing verilog file '/RAID2/COURSE/iclab/iclab075/IC_CONTEST/2020/2020_univ_cell/02_SYN/SME_syn.v'.
+1
+report_area > area.log
+report_timing > timing.log
+report_qor   >  SME_syn.qor
+Warning: Cannot use command line editor for terminal type 'xterm-256color'.  (UI-74)
+dc_shell> 
+Memory usage for this session 187 Mbytes.
+Memory usage for this session including child processes 187 Mbytes.
+CPU usage for this session 5 seconds ( 0.00 hours ).
+Elapsed time for this session 10 seconds ( 0.00 hours ).
+
+Thank you...
